@@ -1,0 +1,8 @@
+deployment:
+  replicas: 1
+  imageVersion: 1.0.0
+  imageURL: add path of ecr repo
+hpa:
+  cpuUtilization: 15
+tgb:
+  arn: add arn of target group here
